@@ -1,5 +1,5 @@
 #docker build -f Dockerfile -t kekonen/binance-notifications:latest .
-#docker run --env-file .env -d kekonen/binance-notifications nodemon index.js
+#docker run --env-file .env -d --name kek kekonen/binance-notifications nodemon index.js
 
 
 FROM node:8-alpine
